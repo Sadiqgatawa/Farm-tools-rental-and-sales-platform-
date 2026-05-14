@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+
+
+}
+.nav{
+    display: flex;
+    justify-content: center;
+
+}
+nav{
+    top: 0;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+}
+nav ul{
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    list-style: none;
+}
+nav li{
+    margin: 0 15px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+nav form input{
+    padding-right: 20px;
+}
+nav form .search{
+    border-radius: 10px;
+    border: none green;
+}
+nav a:hover{
+    transition: 2s;
+    background-color: #4CAF50;
+    padding: 7px;
+    border-radius: 10px;
+}
+body::before{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("farmer8.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: auto;
+    filter: blur(8px);
+    z-index: -1;
+
+}
+body{
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: black;
+    margin: 0px;
+    padding: 0;
+    
+}
+
+.intro{
+    font-size: 60px;
+    height: 110px;
+    margin: 20px;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+h1, h2{
+    color: white; /* modern green accent */
+    margin-bottom: 20px;
+    
+}
+section.content{
+    background-color: white;
+    text-align: center;
+    margin:  auto;
+    padding: auto;
+    overflow-y: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.login{
+    background-color: white;
+    width: 200px;
+    border-radius: 20px;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.login form{
+    display: flex;
+    flex-direction: column;
+}
+.login input{
+    padding: 8px;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+.login input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.login a{
+    font-size: 12px;
+    align-items: center;
+    background-color: aliceblue;
+}
+.equipment{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    
+}
+.equipment a{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    color: rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: white;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+.farm{
+    background-image: url(images/farm.jpg);
+    background-size: cover;
+}
+.poultry{
+    background-image: url(images/poultry.jpg);
+    background-size: cover;
+}
+.fish{
+    background-image: url(images/fish.jpg);
+    background-size: cover;
+}
+.equipment a:hover{
+    transition: 1s;
+    color: black;
+    background-color:rgb(48, 122, 33);
+    font-size: 40px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(27, 104, 12);
+    
+    border-radius: 10px;
+}
+.info ul{
+    list-style: none;
+    padding: 0;
+}
+.info ul li{
+    margin-bottom: 10px;
+}footer{
+    background-color: #222;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_card{
+    width: 800px;
+    height: 250px;
+    background-color: white;
+    border-radius: 30px;
+    margin: 120px;
+    position: relative;
+}
+.image{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background: #cfe3cc;
+    border: 8px solid #f4f4f4;
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    width: 150px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+.tools-container{
+    background-color: white;
+    display: flex;
+}
+
+   
+
